@@ -1,0 +1,9 @@
+spring:
+  couchbase:
+    connection-string: couchbase://localhost
+    user-name: Administrator
+    password: password
+  data:
+    couchbase:
+      bucket-name: person
+      autoIndex: true
